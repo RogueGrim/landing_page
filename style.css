@@ -45,3 +45,15 @@ font-family: Roboto;
     font-weight: bold;
     font-family: Roboto;
 }
+.border{
+    width:200px;
+    height:200px;
+    border:5px solid blue;
+    padding:3px;
+    border-radius: 25px;
+
+}
+.head{
+    height: 300px;
+    width:400px;
+}
