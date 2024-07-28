@@ -1,15 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header, footer{
 background-color: #1f2937;
 color: white;
 font-size: 24px;
 font-family: Roboto;
+display: flex;
+justify-content: space-between;
+padding: 40px;
+align-items: center;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap:10px
 }
 
 .first_section{
  background-color: #1f2937;
+ display: flex;
+ justify-content: space-between;
+ padding: 50px;
+ padding-top: 100px;
 }
 
+.sec1{
+    display: flex;
+    justify-content:stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px
+}
 .head1{
     font-weight: 48px;
     font-weight: bolder;
@@ -21,11 +49,35 @@ font-family: Roboto;
     color:white;
     font-family: Roboto;
 }
-
-.second_section{
+.but1{
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 12px;
+    font-family: Roboto;
+    text-align: center;
+    font-size: large;
+    padding: 10px 30px;
 
 }
-
+.second_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding:50px;
+}
+.currency{
+    display: flex;
+    justify-content: space-evenly;
+    gap:50px
+}
+.stuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
 .head2{
     font-weight: 36px;
     font-weight: bolder;
@@ -33,6 +85,12 @@ font-family: Roboto;
 }
 .third_section{
     background-color: #e5e7eb;
+    padding:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap:10px;
 }
 .para2{
     font-weight: 36px;
@@ -56,4 +114,41 @@ font-family: Roboto;
 .head{
     height: 300px;
     width:400px;
+}
+.popup{
+    background-color: #3882f6;
+    color: white;
+    font-family: Roboto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.pop{
+    display: flex;
+    align-items: center;
+}
+.poptxt1{
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 25px;
+}
+.but2{
+    background-color: #3882f6;
+    border: solid;
+    border-color: white;
+    border-radius: 12px;
+    font-family: Roboto;
+    text-align: center;
+    font-size: large;
+    padding: 10px 30px;
+    color: #e5e7eb;
+
+}
+.fourth_section{
+    padding:100px
 }
